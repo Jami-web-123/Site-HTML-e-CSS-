@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Loja Stylous BR</title>
+</head>
+<body>
+    <!-- Body é onde fica o contéudo da página-->
+    <header class="cabecalho">
+        <!-- Header é o cabeçalho-->
+        <div class="caixa-cabecalho">
+            <!--h1 título principal. Não pode repetir -->
+            <h1 class="titulo">Loja Stylous BR</h1>
+        </div>
+        <div class="caixa-cabecalho">
+            <!-- A é uma tag de âncora, usada para criar links-->
+            <a class="link-caixa" href="index.html">Voltar pra página principal</a>
+            |
+            <a class="link-caixa" href="carrinho.html">Ver Carrinho</a>
+        </div>
+    </header>
+   
+    <br> <!-- Pula uma linha -->
+
+   <!-- Main é o conteúdo principal -->
+    <main class="principal">
+        <!-- P é um parágrafo -->
+        <p>Esta é a página inicial!
+        <br/>
+    </p>
+    <div>
+    <forms action="">
+        <input type="text" placeholder="Insira seu nome..." nome="nome" id="nome">
+        <input type="text" placeholder="Insira seu email.." nome="email" id="email">
+        <input type="password" placeholder="Insira sua senha..." nome="senha" id="senha">
+        <input type="submit" value="Enviar">
+        <input type="checkbox" alt="Lembrar de mim" id=""> <p>Lembrar de mim</p>
+        <label for="Lembrar">Lembrar de mim </label>
+        <buton type="button">Clique em mim!</buton>
+    </forms>
+    </div>
+    </main>
+    </body>
+    </html>
