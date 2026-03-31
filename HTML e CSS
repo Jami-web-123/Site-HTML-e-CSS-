@@ -30,6 +30,12 @@
         <p>Esta é a página inicial!
         <br/>
     </p>
+    <div class="card-main">
+        <h3 class="card-title">Notebook Acer Aspire 5</h3>
+        <img class="card-image" src="" alt="Notebook Acer Aspire 5">
+        <p class="card-desc">Descrição do produto</p>
+        <p class="card-price"> R$ 3.500,00</p>
+        <a class="card-btn">Adicionar ao Carrinho</a>
     <div>
     <forms action="">
         <input type="text" placeholder="Insira seu nome..." nome="nome" id="nome">
@@ -44,3 +50,4 @@
     </main>
     </body>
     </html>
+
