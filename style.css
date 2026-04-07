@@ -30,6 +30,13 @@
     text-decoration: none;
 }
 
+.card-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
 
 .card-main {
     width: 200px;
@@ -64,6 +71,11 @@
 
 }
 
+
+.card-btn {
+
+
+}
 
 .card-btn {
 
